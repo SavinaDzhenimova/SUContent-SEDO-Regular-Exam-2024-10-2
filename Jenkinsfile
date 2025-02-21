@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Run tests') {
             steps {
-                bat 'dotnet test --no-build --verbosity normal'
+                bat 'dotnet test'
             }
         }
     }
